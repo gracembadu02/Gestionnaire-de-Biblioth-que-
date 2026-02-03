@@ -9,7 +9,7 @@
  Aucune installation réquise 
 
  ## Utilisation 
-Aller sur ton repository, tapez sur code, enuite copie le lien `https`
+Aller sur ton repository, tapez sur code, ensuite copie le lien `https`
 Sur le terminal, lancez :
 ```bash
 git clone https://github.com/gracembadu02/Gestionnaire-de-Biblioth-que-.git
