@@ -42,3 +42,27 @@ def returnBook(studentName,book):
 
 message = returnBook("Alice Martin", "Python pour débutants")
 print(message)  
+
+
+
+
+"""
+Mission 2:  Gestion des étudiants
+"""
+listesEtudiants =[]
+
+def enregistreEtudiant(nom, cip,programme):
+   for etudiant in listesEtudiants:
+      if etudiant["cip"] == cip:
+         return f"Erreur : Le cip {cip} existe déjà pour l'étudiant {etudiant["nom"]}"
+   
+   nouvel_etudiant = {
+      "nom" : nom,
+      "cip" : cip,
+      "programme" : programme
+   }
+
+    
+   listesEtudiants.append(nouvel_etudiant)
+   return f"Etudiant {nom} cip: {cip} est enregistré dans le programme {programme}."
+
