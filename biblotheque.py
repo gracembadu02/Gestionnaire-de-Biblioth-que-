@@ -1,10 +1,21 @@
-#include <iostream>
-#include <array>
-#include <vector>
 
-std::vector<String>Livres,
-void ajouterLivre(String auteur, String livre)
-{
-   Livres.push_back(livre);
+"""
+std::vector → list en Python
 
-}
+Pas besoin d’indiquer les types (String)
+
+push_back() → append()
+
+Les {} deviennent une indentation
+"""
+
+
+Livres[]
+
+def ajouterLivre(auteur,livre):
+
+   Livres.append({
+      "auteur" : auteur;
+       "titre" : livre; 
+   })
+
